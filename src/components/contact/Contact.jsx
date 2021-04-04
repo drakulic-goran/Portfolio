@@ -12,6 +12,7 @@ import isEmail from 'validator/lib/isEmail';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 
+
 const CssTextField = withStyles({
   root: {
     '& label.Mui-focused': {
@@ -36,19 +37,23 @@ const CssTextField = withStyles({
 
 const useStyles = makeStyles((theme) => ({
   contact: {
-    // width: "100%",
-    // height: "100%",
+    width: "100%",
+    height: "100%",
+    background: "#354051",
   },
   contactContainer: {
     color: "white",
     // background: "#354051",
     // height: "100vh",
+    position: "relative",
+    padding: "1em 2em 40em 2em",
   },
   form: {
     top: "50%",
     left: "50%",
     transform: "translate(-50%, -50%)",
     position: "absolute",
+    // padding: "10px",
   },
   heading: {
     color: "white",
@@ -216,7 +221,6 @@ const Contact = () => {
   }
 
   return (
-
     <div className={classes.contact}>
       <Box component="div" className={classes.contactContainer}>
         <Grid container justify="center">
@@ -292,7 +296,7 @@ const Contact = () => {
             <div className={classes.contactBtn} >
               <Button variant="contained" onClick={onSubmit} color="primary" >Send message</Button>
             </div >
-          </Box >
+          </Box>
         </Grid>
       </Box>
       {/* <Modal

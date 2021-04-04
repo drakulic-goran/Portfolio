@@ -37,16 +37,16 @@ const projects = [
   {
     name: "WhatsDone Android App",
     description: `Every day you have to ask household/family members and/or colleagues what needs\
-     to be done or what is being done at home and/or at work, or what to buy on the way home and/or to work? \
-    Yeah, What’s Done android app is made to make your life easier with these things. \
+     to be done or what is being done at home and/or at work, or what to buy on the way home and/or to work?\n
+    Yeah, What’s Done android app is made to make your life easier with these things.\n
     Create or review To Do tasks in What’s Done android app every day, so it will never happen\
      that some To Do tasks are not done because others thought someone else would do it, or that\
-      you come home without something from the store and have to go back to the store. \
-    Methodologies: Agile. \
-    Languages: JavaScript. \
-    Frameworks: React Native. \
-    DB: Firebase. \
-    Source control: Git (GitHub). \
+      you come home without something from the store and have to go back to the store.\n
+    Methodologies: Agile.\n
+    Languages: JavaScript.\n
+    Frameworks: React Native.\n
+    DB: Firebase.\n
+    Source control: GitHub.\n
     Issue tracking: Trello.`,
     image: reactNative,
     gitHub: "https://github.com/drakulic-goran/WhatsDone",
@@ -54,16 +54,16 @@ const projects = [
   },
   {
     name: "Jobster Web App",
-    description: `Web-App for searching and offering part-time and full-time jobs. \
+    description: `Web-App for searching and offering part-time and full-time jobs.\n
     Adding and browsing job offers and job seeks by exact date period, exact days in a \
-    week for selected date period and exact hours period in every selected day.\
-    Live demo is very basic FE version of the application without backend, in a raw stage, without functionalities. \
-    Methodologies: Agile. \
-Languages: Java, JavaScript. \
-Frameworks: Spring, React. \
-DB: MySQL. \
-Source control: Git (GitHub). \
-Issue tracking: Trello, Slack.`,
+    week for selected date period and exact hours period in every selected day.\n
+    Live demo is very basic FE version of the application without backend, in a raw stage, without functionalities.\n
+    Methodologies: Agile.\n
+    Languages: Java, JavaScript.\n
+    Frameworks: Spring, React.\n
+    DB: MySQL.\n
+    Source control: GitHub.\n
+    Issue tracking: Trello, Slack.`,
     image: spring,
     gitHub: "https://github.com/3click-jobs/jobster",
     liveDemo: "https://znasnekog.netlify.app/",
@@ -71,29 +71,29 @@ Issue tracking: Trello, Slack.`,
   {
     name: "e-SchoolRegister Web App",
     description: `Web application (BE and FE) for Teachers, Parents, Students and Grades managenemt, \
-    with all operations which are necessary in any school. \
+    with all operations which are necessary in any school.\n
     Backend is created in Spring/Hibernate, with basic security, joined table inheritance strategy, \
-    validation, corse, logging, download log file and automaticaly sending e-mails to parents. Using MySQL database.\
-    Frontend is created in React, data can change over time without reloading the page and it have responsive layout.\
-    Live demo is very basic FE version of the application without backend, in a raw stage, without functionalities. \
-    Languages: Java, JavaScript. \
-Frameworks: Spring, React. \
-DB: MySQL. \
-Source control: Git (GitHub).`,
+    validation, corse, logging, download log file and automaticaly sending e-mails to parents. Using MySQL database.\n
+    Frontend is created in React, data can change over time without reloading the page and it have responsive layout.\n
+    Live demo is very basic FE version of the application without backend, in a raw stage, without functionalities.\n
+    Languages: Java, JavaScript.\n
+    Frameworks: Spring, React.\n
+    DB: MySQL.\n
+    Source control: GitHub.`,
     image: spring,
     gitHub: "https://github.com/drakulic-goran/e-SchoolRegister",
     liveDemo: "https://e-school-register.netlify.app/",
   },
   {
     name: "Portfolio web site",
-    description: `Portfolio Web site (FE) for self promotion and contact with clients.\
+    description: `Portfolio Web site (FE) for self promotion and contact with clients.\n
     It is created in React, data can change over time without reloading the \
-    page and it have responsive layout. \
-    Methodologies: Agile. \
-    Languages: JavaScript. \
-    Frameworks: React. \
-    Toolkits: Material-UI, React Router, Emailjs. \
-    Source control: Git (GitHub).`,
+    page and it have responsive layout.\n
+    Methodologies: Agile.\n
+    Languages: JavaScript.\n
+    Frameworks: React.\n
+    Toolkits: Material-UI, React Router, Emailjs.\n
+    Source control: GitHub.`,
     image: react,
     gitHub: "https://github.com/drakulic-goran/portfolio",
     liveDemo: "https://portfoliogd.netlify.app/",
@@ -101,14 +101,14 @@ Source control: Git (GitHub).`,
   {
     name: "Bookkeeping-Accounting-Audit web site",
     description: `Web site (FE) for bookkeepers, accountants and auditors, \
-    for promoting their services and contact with clients.\
+    for promoting their services and contact with clients.\n
     It is created in React, data can change over time without reloading the \
-    page and it have responsive layout. \
-    Methodologies: Agile. \
-    Languages: JavaScript. \
-    Frameworks: React. \
-    Toolkits: Bootstrap, React Bootstrap, React Router, Emailjs. \
-    Source control: Git (GitHub).`,
+    page and it have responsive layout.\n
+    Methodologies: Agile.\n
+    Languages: JavaScript.\n
+    Frameworks: React.\n
+    Toolkits: Bootstrap, React Bootstrap, React Router, Emailjs.\n
+    Source control: GitHub.`,
     image: react,
     gitHub: "https://github.com/drakulic-goran/Bookkeeping-Accounting-Audit",
     liveDemo: "https://bookkeeping-accounting-audit.netlify.app/",
@@ -116,26 +116,26 @@ Source control: Git (GitHub).`,
   {
     name: "Waitron Android App",
     description: `Waitron android app is made to make your life easier with ordering in caffes,\
-     restaurants and so on. \
-   Methodologies: Agile. \
-   Languages: JavaScript. \
-   Frameworks: React Native. \
-   DB: Firebase. \
-   Source control: Git (GitHub). \
-   Issue tracking: Trello.`,
+     restaurants and so on.\n
+    Methodologies: Agile.\n
+    Languages: JavaScript.\n
+    Frameworks: React Native.\n
+    DB: Firebase.\n
+    Source control: GitHub.\n
+    Issue tracking: Trello.`,
     image: reactNative,
     gitHub: "https://github.com/drakulic-goran/Waitron",
     liveDemo: "https://play.google.com/store/apps/details?id=rs.znasnekog.waitron",
   },
   {
     name: "SandwichBuilder web site",
-    description: `Ordering sandwich for promotional meetings in Serbia.\
-    Methodologies: Agile. \
-    Languages: JavaScript. \
-    Frameworks: React. \
-    DB: Firebase. \
-    Toolkits: React Router. \
-    Source control: Git (GitHub).`,
+    description: `Ordering sandwich for promotional meetings in Serbia.\n
+    Methodologies: Agile.\n
+    Languages: JavaScript.\n
+    Frameworks: React.\n
+    DB: Firebase.\n
+    Toolkits: React Router.\n
+    Source control: GitHub.`,
     image: react,
     gitHub: "https://github.com/drakulic-goran/SandwichBuilder",
     liveDemo: "https://sandwichBuilder.netlify.app/",
@@ -161,8 +161,10 @@ const Portfolio = () => {
                   <Typography variant="h5" gutterBottom>
                     {project.name}
                   </Typography>
-                  <Typography variant="body2" color="textSecondary">
-                    {project.description}
+                  <Typography variant="body2" align="justify" color="textSecondary">
+                    {project.description.split("\n").map((i, key) => {
+                      return <p key={key}>{i}</p>;
+                    })}
                   </Typography>
                 </CardContent>
               </CardActionArea>
