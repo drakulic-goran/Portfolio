@@ -215,7 +215,7 @@ const Education = (props) => {
                         />
                         <Collapse in={expanded1}>
                             <CardContent expandable={true}>
-                                <p>200-205</p>
+                                <p>2000 - 2005</p>
                                 <p>
                                     Among other things, acquired broad knowledge for independent reasoning and creating business solutions, for the implementation of modern business strategies in the postal transport and telecommunications sector, Web site design, creating optimal transport solutions, using an algorithmic approach to problem solving and transport documentation administration.
                             </p>
