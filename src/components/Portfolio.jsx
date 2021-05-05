@@ -35,6 +35,26 @@ const goTo = (e) => {
 
 const projects = [
   {
+    name: "Waitron Android App",
+    description: `Waitron android app is made to make your life easier with ordering in a \
+    restaurant, cafe, bar, pub, etc.\n
+    You can order food and/or drinks, quickly and easy, without waiting for the waiter to \
+    pick up your order. Simply scan the QR code on the table of the restaurant, cafe, bar, \
+    pub, etc., and send the order immediately.\n
+    If You are the owner or manager of a restaurant, cafe, bar, pub, etc., create that business \
+    in the Waitron app, place printed QR codes on the tables and wait for \
+    guests to send a new orders to all active waiters.\n
+    Methodologies: Agile.\n
+    Languages: JavaScript.\n
+    Frameworks: React Native.\n
+    DB: Firebase.\n
+    Source control: GitHub.\n
+    Issue tracking: Trello.`,
+    image: reactNative,
+    gitHub: "https://github.com/drakulic-goran/Waitron",
+    liveDemo: "https://play.google.com/store/apps/details?id=rs.znasnekog.waitron",
+  },
+  {
     name: "WhatsDone Android App",
     description: `Every day you have to ask household/family members and/or colleagues what needs\
      to be done or what is being done at home and/or at work, or what to buy on the way home and/or to work?\n
@@ -57,7 +77,8 @@ const projects = [
     description: `Web-App for searching and offering part-time and full-time jobs.\n
     Adding and browsing job offers and job seeks by exact date period, exact days in a \
     week for selected date period and exact hours period in every selected day.\n
-    Live demo is very basic FE version of the application without backend, in a raw stage, without functionalities.\n
+    Live demo is very basic FE version of the application without backend, in a raw stage, \
+    without functionalities.\n
     Methodologies: Agile.\n
     Languages: Java, JavaScript.\n
     Frameworks: Spring, React.\n
@@ -67,22 +88,6 @@ const projects = [
     image: spring,
     gitHub: "https://github.com/3click-jobs/jobster",
     liveDemo: "https://znasnekog.netlify.app/",
-  },
-  {
-    name: "e-SchoolRegister Web App",
-    description: `Web application (BE and FE) for Teachers, Parents, Students and Grades managenemt, \
-    with all operations which are necessary in any school.\n
-    Backend is created in Spring/Hibernate, with basic security, joined table inheritance strategy, \
-    validation, corse, logging, download log file and automaticaly sending e-mails to parents. Using MySQL database.\n
-    Frontend is created in React, data can change over time without reloading the page and it have responsive layout.\n
-    Live demo is very basic FE version of the application without backend, in a raw stage, without functionalities.\n
-    Languages: Java, JavaScript.\n
-    Frameworks: Spring, React.\n
-    DB: MySQL.\n
-    Source control: GitHub.`,
-    image: spring,
-    gitHub: "https://github.com/drakulic-goran/e-SchoolRegister",
-    liveDemo: "https://e-school-register.netlify.app/",
   },
   {
     name: "Portfolio web site",
@@ -114,20 +119,6 @@ const projects = [
     liveDemo: "https://bookkeeping-accounting-audit.netlify.app/",
   },
   {
-    name: "Waitron Android App",
-    description: `Waitron android app is made to make your life easier with ordering in caffes,\
-     restaurants and so on.\n
-    Methodologies: Agile.\n
-    Languages: JavaScript.\n
-    Frameworks: React Native.\n
-    DB: Firebase.\n
-    Source control: GitHub.\n
-    Issue tracking: Trello.`,
-    image: reactNative,
-    gitHub: "https://github.com/drakulic-goran/Waitron",
-    liveDemo: "https://play.google.com/store/apps/details?id=rs.znasnekog.waitron",
-  },
-  {
     name: "SandwichBuilder web site",
     description: `Ordering sandwich for promotional meetings in Serbia.\n
     Methodologies: Agile.\n
@@ -139,6 +130,22 @@ const projects = [
     image: react,
     gitHub: "https://github.com/drakulic-goran/SandwichBuilder",
     liveDemo: "https://sandwichBuilder.netlify.app/",
+  },
+  {
+    name: "e-SchoolRegister Web App",
+    description: `Web application (BE and FE) for Teachers, Parents, Students and Grades managenemt, \
+    with all operations which are necessary in any school.\n
+    Backend is created in Spring/Hibernate, with basic security, joined table inheritance strategy, \
+    validation, corse, logging, download log file and automaticaly sending e-mails to parents. Using MySQL database.\n
+    Frontend is created in React, data can change over time without reloading the page and it have responsive layout.\n
+    Live demo is very basic FE version of the application without backend, in a raw stage, without functionalities.\n
+    Languages: Java, JavaScript.\n
+    Frameworks: Spring, React.\n
+    DB: MySQL.\n
+    Source control: GitHub.`,
+    image: spring,
+    gitHub: "https://github.com/drakulic-goran/e-SchoolRegister",
+    liveDemo: "https://e-school-register.netlify.app/",
   },
 ];
 
