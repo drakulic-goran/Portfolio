@@ -35,6 +35,25 @@ const goTo = (e) => {
 
 const projects = [
   {
+    name: "Racing Pigeons Android App",
+    description: `Racing Pigeons android app is made to make your life easier with calculation \
+    of average pigeon flight speed, tracking pigeons results and getting Weather forecast.\n
+    Unregistered users can calculate the average flight speed for two pigeons at the same time and \
+    follow the hourly and daily weather forecast for several days in advance, as well as to have an \
+    insight into the best average flight speed entered into the Racing Pigeons app by any user.\n
+    In addition to the above-mentioned functionalities, registered users can also keep records of \
+    their pigeons and their average flight speeds with the distances and the flying times.\n
+    Methodologies: Agile.\n
+    Languages: JavaScript.\n
+    Frameworks: React Native.\n
+    DB: Firebase.\n
+    Source control: GitHub.\n
+    Issue tracking: Trello.`,
+    image: reactNative,
+    gitHub: "https://github.com/drakulic-goran/Pigeonster",
+    liveDemo: "https://play.google.com/store/apps/details?id=rs.znasnekog.pigeonster",
+  },
+  {
     name: "Waitron Android App",
     description: `Waitron android app is made to make your life easier with ordering in a \
     restaurant, cafe, bar, pub, etc.\n
@@ -90,7 +109,7 @@ const projects = [
     liveDemo: "https://znasnekog.netlify.app/",
   },
   {
-    name: "Portfolio web site",
+    name: "Portfolio Web site",
     description: `Portfolio Web site (FE) for self promotion and contact with clients.\n
     It is created in React, data can change over time without reloading the \
     page and it have responsive layout.\n
@@ -104,7 +123,7 @@ const projects = [
     liveDemo: "https://portfoliogd.netlify.app/",
   },
   {
-    name: "Bookkeeping-Accounting-Audit web site",
+    name: "Bookkeeping-Accounting-Audit Web site",
     description: `Web site (FE) for bookkeepers, accountants and auditors, \
     for promoting their services and contact with clients.\n
     It is created in React, data can change over time without reloading the \
@@ -119,7 +138,7 @@ const projects = [
     liveDemo: "https://bookkeeping-accounting-audit.netlify.app/",
   },
   {
-    name: "SandwichBuilder web site",
+    name: "SandwichBuilder Web site",
     description: `Ordering sandwich for promotional meetings in Serbia.\n
     Methodologies: Agile.\n
     Languages: JavaScript.\n
