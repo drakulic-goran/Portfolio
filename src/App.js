@@ -10,6 +10,8 @@ import Timeline from "./components/Timeline";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Education from "./components/Education";
+import Privacy from "./components/Privacy";
+import Terms from "./components/Terms";
 // import Contact from "./components/Contact";
 import Contact from "./components/contact/Contact";
 
@@ -31,6 +33,8 @@ const App = (props) => {
             <Route exact path="/resume" component={Timeline} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/education" component={Education} />
+            <Route exact path="/privacy" component={Privacy} />
+            <Route exact path="/terms" component={Terms} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
       </Router>
