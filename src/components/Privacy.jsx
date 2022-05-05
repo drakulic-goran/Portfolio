@@ -152,7 +152,7 @@ const Privacy = () => {
                         />
                         <CardContent>
                           <p>
-                            n a case of an error, Service and third party services collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the site when utilizing Service, the time and date of your use of the Service, and other statistics.
+                            In a case of an error, Service and third party services collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the site when utilizing Service, the time and date of your use of the Service, and other statistics.
                           </p>
                         </CardContent>
                     </Card>
@@ -211,7 +211,7 @@ const Privacy = () => {
                         />
                         <CardContent>
                           <p>
-                            ThereWe may share the information that we collect, both personal and non-personal, with third parties such as advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you. We may also share it with our current and future affiliated companies and business partners, and if we are involved in a merger, asset sale or other business reorganization, we may also share or transfer your personal and non-personal information to our successors-in-interest.
+                            We may share the information that we collect, both personal and non-personal, with third parties such as advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you. We may also share it with our current and future affiliated companies and business partners, and if we are involved in a merger, asset sale or other business reorganization, we may also share or transfer your personal and non-personal information to our successors-in-interest.
                           </p>
                           <p>
                             We may engage trusted third party service providers to perform functions and provide services to us, such as hosting and maintaining our servers and our service, database storage and management, e-mail management, storage marketing, credit card processing, customer service and fulfilling orders for products and services you may purchase through our platform. We will likely share your personal information, and possibly some non-personal information, with these third parties to enable them to perform these services for us and for you.
@@ -691,7 +691,7 @@ const Privacy = () => {
                 <div className={classes.timeline}>
                     <Card>
                         <CardHeader
-                            title="When"
+                            title="Contact Us"
                             titleTypographyProps={{ variant: 'h6' }}
                         />
                         <CardContent>
