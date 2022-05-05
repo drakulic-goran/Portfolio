@@ -19,7 +19,7 @@ import Apps from "@material-ui/icons/Apps";
 import ContactMail from "@material-ui/icons/ContactMail";
 import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 import PolicyIcon from '@material-ui/icons/Policy';
-import ShieldIcon from '@material-ui/icons/Shield';
+import ShieldIcon from '@material-ui/icons/Policy';
 import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../avatar.png";
 
