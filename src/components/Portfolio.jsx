@@ -35,6 +35,60 @@ const goTo = (e) => {
 
 const projects = [
   {
+    name: "Elections Tracker Android App",
+    description: `Elections Tracker android app is made to make your life easier with \
+    monitoring election turnout and election results.\n
+    Allows creating election processes, adding members who are in charge of updating \
+    data at certain polling stations or only can see results if the elections were \
+    created as private.\n
+    It also allows sharing the collected results with all users of the app, \
+    if the elections were created as public, and so on.\n
+    Methodologies: Agile.\n
+    Languages: JavaScript.\n
+    Frameworks: React Native.\n
+    DB: Firebase.\n
+    Source control: GitHub.\n
+    Issue tracking: Trello.`,
+    image: reactNative,
+    gitHub: "https://github.com/drakulic-goran/ElectionsTracker",
+    liveDemo: "https://play.google.com/store/apps/details?id=rs.znasnekog.electionsTracker",
+  },
+  {
+    name: "Delivery Assistant (POD) Android App",
+    description: `Delivery Assistant (POD - Proof Of Delivery) android app is an app that \
+    allows you to load parcels data from csv file (must be called "deliveryList.csv") located \
+    on the device (works completely offline), as well as filling in the delivery data in that \
+    file (collected signature file name, date and time of parcel processing, note and delivery \
+    status code), while saving the signature image files in the same directory on the device \
+    where the initial file with parcels data is located.\n
+    It is recommended that you place the "deliveryList.csv" file in the folder you created \
+    on the device for this purpose only, as the application will store the signature images \
+    in the same folder in addition to adding the necessary data to the "deliveryList.csv" file.\n
+    For the folder where the "deliveryList.csv" file is located, before using the application, \
+    you must allow the application to use that folder and all content in it.\n
+    Methodologies: Agile.\n
+    Languages: JavaScript.\n
+    Frameworks: React Native.\n
+    Source control: GitHub.\n
+    Issue tracking: Trello.`,
+    image: reactNative,
+    gitHub: "https://github.com/drakulic-goran/Deliverer",
+    liveDemo: "https://play.google.com/store/apps/details?id=rs.znasnekog.deliverer",
+  },
+  {
+    name: "Stickers Albums Android App",
+    description: `Stickers Albums android app is made to make your life easier with \
+    creating Stickers albums, tracking collected stickers and duplicates at one place.\n
+    Methodologies: Agile.\n
+    Languages: JavaScript.\n
+    Frameworks: React Native.\n
+    Source control: GitHub.\n
+    Issue tracking: Trello.`,
+    image: reactNative,
+    gitHub: "https://github.com/drakulic-goran/StickersAlbums",
+    liveDemo: "https://play.google.com/store/apps/details?id=rs.znasnekog.stickersAlbums",
+  },
+  {
     name: "Racing Pigeons Android App",
     description: `Racing Pigeons android app is made to make your life easier with calculation \
     of average pigeon flight speed, tracking pigeons results and getting Weather forecast.\n
