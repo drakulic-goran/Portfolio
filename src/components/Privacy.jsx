@@ -4,29 +4,6 @@ import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 
-
-const CssTextField = withStyles({
-  root: {
-    '& label.Mui-focused': {
-      color: '#3d6bb3',
-    },
-    '& .MuiInput-underline:after': {
-      borderBottomColor: '#3d6bb3',
-    },
-    '& .MuiOutlinedInput-root': {
-      '& fieldset': {
-        borderColor: 'white',
-      },
-      '&:hover fieldset': {
-        borderColor: '#00e5ff',
-      },
-      '&.Mui-focused fieldset': {
-        borderColor: '#3d6bb3',
-      },
-    },
-  },
-})(TextField);
-
 const useStyles = makeStyles((theme) => ({
   contact: {
     width: "100%",
