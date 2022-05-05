@@ -64,7 +64,7 @@ const menuItems = [
   { listIcon: <Apps />, listText: "Projects", listPath: "/portfolio" },
   { listIcon: <CastForEducationIcon />, listText: "Education", listPath: "/education" },
   { listIcon: <PolicyIcon />, listText: "Privacy policy", listPath: "/privacy" },
-  { listIcon: <ShieldIcon />, listText: "Terms & Condittions", listPath: "/terms" },
+  { listIcon: <ShieldIcon />, listText: "Terms & Conditions", listPath: "/terms" },
   { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
 ];
 
